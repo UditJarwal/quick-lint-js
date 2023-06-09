@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/quick-lint-js-generate-lex-keyword.dir/generate-lex-keyword.cpp.o" -o ../quick-lint-js-generate-lex-keyword  ../src/libquick-lint-js-tool-lib.a 

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/quick-lint-js-fuzz-lex.dir/fuzz-lex.cpp.o" -o quick-lint-js-fuzz-lex  -fsanitize=fuzzer ../src/libquick-lint-js-lib.a ../src/libquick-lint-js-tool-lib.a ../vendor/simdjson/libsimdjson.a 

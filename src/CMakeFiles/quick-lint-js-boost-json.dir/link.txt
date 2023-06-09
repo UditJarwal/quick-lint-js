@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libquick-lint-js-boost-json.a "CMakeFiles/quick-lint-js-boost-json.dir/quick-lint-js/boost-json.cpp.o"
+/Library/Developer/CommandLineTools/usr/bin/ranlib libquick-lint-js-boost-json.a

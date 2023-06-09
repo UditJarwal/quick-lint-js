@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libquick-lint-js-typescript-test-lib.a "CMakeFiles/quick-lint-js-typescript-test-lib.dir/typescript-test.cpp.o"
+/Library/Developer/CommandLineTools/usr/bin/ranlib libquick-lint-js-typescript-test-lib.a

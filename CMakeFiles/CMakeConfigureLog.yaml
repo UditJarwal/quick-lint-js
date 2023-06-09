@@ -1,0 +1,1344 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The system is: Darwin - 22.5.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library not found for -lSystem
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library not found for -lc++
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_859ad/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_859ad.dir/build.make CMakeFiles/cmTC_859ad.dir/build
+        Building C object CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin22.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_859ad
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_859ad.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -o cmTC_859ad 
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin22.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_859ad -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:29 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_859ad/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_859ad.dir/build.make CMakeFiles/cmTC_859ad.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin22.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LLdeZp" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_859ad]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_859ad.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -o cmTC_859ad ]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin22.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_859ad -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_859ad] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_859ad.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f74d8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f74d8.dir/build.make CMakeFiles/cmTC_f74d8.dir/build
+        Building CXX object CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin22.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_f74d8
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f74d8.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f74d8 
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: arm64-apple-darwin22.5.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_f74d8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:29 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f74d8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f74d8.dir/build.make CMakeFiles/cmTC_f74d8.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin22.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cDOBBY" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_f74d8]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f74d8.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f74d8 ]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: arm64-apple-darwin22.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_f74d8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f74d8] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f74d8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:201 (check_c_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:196 (quick_lint_js_add_c_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:114 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:108 (quick_lint_js_use_new_msvc_preprocessor)"
+      - "CMakeLists.txt:143 (quick_lint_js_set_cxx_standard)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_ZC_PREPROCESSOR_C"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-M54fto"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-M54fto"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_ZC_PREPROCESSOR_C"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-M54fto
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8cdc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f8cdc.dir/build.make CMakeFiles/cmTC_f8cdc.dir/build
+        Building C object CMakeFiles/cmTC_f8cdc.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DQUICK_LINT_JS_HAVE_ZC_PREPROCESSOR_C  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /Zc:preprocessor -MD -MT CMakeFiles/cmTC_f8cdc.dir/src.c.o -MF CMakeFiles/cmTC_f8cdc.dir/src.c.o.d -o CMakeFiles/cmTC_f8cdc.dir/src.c.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-M54fto/src.c"
+        clang: error: no such file or directory: '/Zc:preprocessor'
+        make[1]: *** [CMakeFiles/cmTC_f8cdc.dir/src.c.o] Error 1
+        make: *** [cmTC_f8cdc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:208 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:197 (quick_lint_js_add_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:114 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:108 (quick_lint_js_use_new_msvc_preprocessor)"
+      - "CMakeLists.txt:143 (quick_lint_js_set_cxx_standard)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_ZC_PREPROCESSOR_CXX"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LDbVW5"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LDbVW5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_ZC_PREPROCESSOR_CXX"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LDbVW5
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3ad23/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3ad23.dir/build.make CMakeFiles/cmTC_3ad23.dir/build
+        Building CXX object CMakeFiles/cmTC_3ad23.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_ZC_PREPROCESSOR_CXX  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /Zc:preprocessor -MD -MT CMakeFiles/cmTC_3ad23.dir/src.cxx.o -MF CMakeFiles/cmTC_3ad23.dir/src.cxx.o.d -o CMakeFiles/cmTC_3ad23.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-LDbVW5/src.cxx"
+        clang: error: no such file or directory: '/Zc:preprocessor'
+        make[1]: *** [CMakeFiles/cmTC_3ad23.dir/src.cxx.o] Error 1
+        make: *** [cmTC_3ad23/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:201 (check_c_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:196 (quick_lint_js_add_c_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:116 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:108 (quick_lint_js_use_new_msvc_preprocessor)"
+      - "CMakeLists.txt:143 (quick_lint_js_set_cxx_standard)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_EXPERIMENTAL_PREPROCESSOR_C"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-yxSlh4"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-yxSlh4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_EXPERIMENTAL_PREPROCESSOR_C"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-yxSlh4
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_12d02/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_12d02.dir/build.make CMakeFiles/cmTC_12d02.dir/build
+        Building C object CMakeFiles/cmTC_12d02.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DQUICK_LINT_JS_HAVE_EXPERIMENTAL_PREPROCESSOR_C  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /experimental:preprocessor -MD -MT CMakeFiles/cmTC_12d02.dir/src.c.o -MF CMakeFiles/cmTC_12d02.dir/src.c.o.d -o CMakeFiles/cmTC_12d02.dir/src.c.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-yxSlh4/src.c"
+        clang: error: no such file or directory: '/experimental:preprocessor'
+        make[1]: *** [CMakeFiles/cmTC_12d02.dir/src.c.o] Error 1
+        make: *** [cmTC_12d02/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:208 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:197 (quick_lint_js_add_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:116 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:108 (quick_lint_js_use_new_msvc_preprocessor)"
+      - "CMakeLists.txt:143 (quick_lint_js_set_cxx_standard)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_EXPERIMENTAL_PREPROCESSOR_CXX"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-FuF2ww"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-FuF2ww"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_EXPERIMENTAL_PREPROCESSOR_CXX"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-FuF2ww
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6133/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f6133.dir/build.make CMakeFiles/cmTC_f6133.dir/build
+        Building CXX object CMakeFiles/cmTC_f6133.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_EXPERIMENTAL_PREPROCESSOR_CXX  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /experimental:preprocessor -MD -MT CMakeFiles/cmTC_f6133.dir/src.cxx.o -MF CMakeFiles/cmTC_f6133.dir/src.cxx.o.d -o CMakeFiles/cmTC_f6133.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-FuF2ww/src.cxx"
+        clang: error: no such file or directory: '/experimental:preprocessor'
+        make[1]: *** [CMakeFiles/cmTC_f6133.dir/src.cxx.o] Error 1
+        make: *** [cmTC_f6133/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:150 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:121 (quick_lint_js_get_supported_warning_options)"
+      - "cmake/QuickLintJSCompiler.cmake:108 (quick_lint_js_use_new_msvc_preprocessor)"
+      - "CMakeLists.txt:143 (quick_lint_js_set_cxx_standard)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_WARNING_OPTION__WD5105"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-m3F7dN"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-m3F7dN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_WARNING_OPTION__WD5105"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-m3F7dN
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8e3be/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8e3be.dir/build.make CMakeFiles/cmTC_8e3be.dir/build
+        Building CXX object CMakeFiles/cmTC_8e3be.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_WARNING_OPTION__WD5105  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /wd5105 -MD -MT CMakeFiles/cmTC_8e3be.dir/src.cxx.o -MF CMakeFiles/cmTC_8e3be.dir/src.cxx.o.d -o CMakeFiles/cmTC_8e3be.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-m3F7dN/src.cxx"
+        clang: error: no such file or directory: '/wd5105'
+        make[1]: *** [CMakeFiles/cmTC_8e3be.dir/src.cxx.o] Error 1
+        make: *** [cmTC_8e3be/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:23 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:144 (quick_lint_js_enable_char8_t_if_supported)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FCHAR8_T_FLAG"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-4oLZBo"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-4oLZBo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FCHAR8_T_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-4oLZBo
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_97e50/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_97e50.dir/build.make CMakeFiles/cmTC_97e50.dir/build
+        Building CXX object CMakeFiles/cmTC_97e50.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_FCHAR8_T_FLAG  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -fchar8_t -MD -MT CMakeFiles/cmTC_97e50.dir/src.cxx.o -MF CMakeFiles/cmTC_97e50.dir/src.cxx.o.d -o CMakeFiles/cmTC_97e50.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-4oLZBo/src.cxx"
+        Linking CXX executable cmTC_97e50
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97e50.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_97e50.dir/src.cxx.o -o cmTC_97e50 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "cmake/QuickLintJSCompiler.cmake:25 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:144 (quick_lint_js_enable_char8_t_if_supported)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_TYPEID"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nFr5r7"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nFr5r7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_TYPEID"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nFr5r7
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5bf25/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5bf25.dir/build.make CMakeFiles/cmTC_5bf25.dir/build
+        Building CXX object CMakeFiles/cmTC_5bf25.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_TYPEID  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_5bf25.dir/src.cxx.o -MF CMakeFiles/cmTC_5bf25.dir/src.cxx.o.d -o CMakeFiles/cmTC_5bf25.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nFr5r7/src.cxx"
+        Linking CXX executable cmTC_5bf25
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bf25.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5bf25.dir/src.cxx.o -o cmTC_5bf25 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "cmake/QuickLintJSCompiler.cmake:36 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:144 (quick_lint_js_enable_char8_t_if_supported)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_WORKING_FCHAR8_T"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-YWqENj"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-YWqENj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_WORKING_FCHAR8_T"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-YWqENj
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_20616/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_20616.dir/build.make CMakeFiles/cmTC_20616.dir/build
+        Building CXX object CMakeFiles/cmTC_20616.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_WORKING_FCHAR8_T  -fchar8_t -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_20616.dir/src.cxx.o -MF CMakeFiles/cmTC_20616.dir/src.cxx.o.d -o CMakeFiles/cmTC_20616.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-YWqENj/src.cxx"
+        Linking CXX executable cmTC_20616
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20616.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -fchar8_t -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_20616.dir/src.cxx.o -o cmTC_20616 
+        Undefined symbols for architecture arm64:
+          "typeinfo for char8_t", referenced from:
+              _main in src.cxx.o
+        ld: symbol(s) not found for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_20616] Error 1
+        make: *** [cmTC_20616/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:50 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:144 (quick_lint_js_enable_char8_t_if_supported)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FNO_CHAR8_T_FLAG"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-U0w0Pg"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-U0w0Pg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FNO_CHAR8_T_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-U0w0Pg
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9c86e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9c86e.dir/build.make CMakeFiles/cmTC_9c86e.dir/build
+        Building CXX object CMakeFiles/cmTC_9c86e.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_FNO_CHAR8_T_FLAG  -fchar8_t -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -fno-char8_t -MD -MT CMakeFiles/cmTC_9c86e.dir/src.cxx.o -MF CMakeFiles/cmTC_9c86e.dir/src.cxx.o.d -o CMakeFiles/cmTC_9c86e.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-U0w0Pg/src.cxx"
+        Linking CXX executable cmTC_9c86e
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c86e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -fchar8_t -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9c86e.dir/src.cxx.o -o cmTC_9c86e 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:208 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:70 (quick_lint_js_add_cxx_flag_if_supported)"
+      - "CMakeLists.txt:145 (quick_lint_js_configure_exception_handling)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FNO_EXCEPTIONS"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-itAHAa"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-itAHAa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FNO_EXCEPTIONS"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-itAHAa
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_350b2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_350b2.dir/build.make CMakeFiles/cmTC_350b2.dir/build
+        Building CXX object CMakeFiles/cmTC_350b2.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_FNO_EXCEPTIONS  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -fno-exceptions -MD -MT CMakeFiles/cmTC_350b2.dir/src.cxx.o -MF CMakeFiles/cmTC_350b2.dir/src.cxx.o.d -o CMakeFiles/cmTC_350b2.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-itAHAa/src.cxx"
+        Linking CXX executable cmTC_350b2
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_350b2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_350b2.dir/src.cxx.o -o cmTC_350b2 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:208 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:75 (quick_lint_js_add_cxx_flag_if_supported)"
+      - "CMakeLists.txt:146 (quick_lint_js_configure_rtti)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FNO_RTTI"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xg9Ui0"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xg9Ui0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FNO_RTTI"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xg9Ui0
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc275/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc275.dir/build.make CMakeFiles/cmTC_cc275.dir/build
+        Building CXX object CMakeFiles/cmTC_cc275.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_FNO_RTTI  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -fno-rtti -MD -MT CMakeFiles/cmTC_cc275.dir/src.cxx.o -MF CMakeFiles/cmTC_cc275.dir/src.cxx.o.d -o CMakeFiles/cmTC_cc275.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xg9Ui0/src.cxx"
+        Linking CXX executable cmTC_cc275
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc275.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cc275.dir/src.cxx.o -o cmTC_cc275 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:208 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:76 (quick_lint_js_add_cxx_flag_if_supported)"
+      - "CMakeLists.txt:146 (quick_lint_js_configure_rtti)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_GR_"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-RsUG3a"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-RsUG3a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_GR_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-RsUG3a
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a2187/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a2187.dir/build.make CMakeFiles/cmTC_a2187.dir/build
+        Building CXX object CMakeFiles/cmTC_a2187.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_GR_  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /GR- -MD -MT CMakeFiles/cmTC_a2187.dir/src.cxx.o -MF CMakeFiles/cmTC_a2187.dir/src.cxx.o.d -o CMakeFiles/cmTC_a2187.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-RsUG3a/src.cxx"
+        clang: error: no such file or directory: '/GR-'
+        make[1]: *** [CMakeFiles/cmTC_a2187.dir/src.cxx.o] Error 1
+        make: *** [cmTC_a2187/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:201 (check_c_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:196 (quick_lint_js_add_c_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:250 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "CMakeLists.txt:148 (quick_lint_js_enable_dead_code_stripping)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FDATA_SECTIONS_C"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dzczVG"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dzczVG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FDATA_SECTIONS_C"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dzczVG
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5f4f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a5f4f.dir/build.make CMakeFiles/cmTC_a5f4f.dir/build
+        Building C object CMakeFiles/cmTC_a5f4f.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DQUICK_LINT_JS_HAVE_FDATA_SECTIONS_C  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -fdata-sections -MD -MT CMakeFiles/cmTC_a5f4f.dir/src.c.o -MF CMakeFiles/cmTC_a5f4f.dir/src.c.o.d -o CMakeFiles/cmTC_a5f4f.dir/src.c.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dzczVG/src.c"
+        Linking C executable cmTC_a5f4f
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5f4f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a5f4f.dir/src.c.o -o cmTC_a5f4f 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:208 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:197 (quick_lint_js_add_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:250 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "CMakeLists.txt:148 (quick_lint_js_enable_dead_code_stripping)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FDATA_SECTIONS_CXX"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-sG8Jw2"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-sG8Jw2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FDATA_SECTIONS_CXX"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-sG8Jw2
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36977/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_36977.dir/build.make CMakeFiles/cmTC_36977.dir/build
+        Building CXX object CMakeFiles/cmTC_36977.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_FDATA_SECTIONS_CXX  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -fdata-sections -MD -MT CMakeFiles/cmTC_36977.dir/src.cxx.o -MF CMakeFiles/cmTC_36977.dir/src.cxx.o.d -o CMakeFiles/cmTC_36977.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-sG8Jw2/src.cxx"
+        Linking CXX executable cmTC_36977
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36977.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_36977.dir/src.cxx.o -o cmTC_36977 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:201 (check_c_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:196 (quick_lint_js_add_c_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:251 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "CMakeLists.txt:148 (quick_lint_js_enable_dead_code_stripping)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FFUNCTION_SECTIONS_C"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nGUdhm"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nGUdhm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FFUNCTION_SECTIONS_C"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nGUdhm
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_baa96/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_baa96.dir/build.make CMakeFiles/cmTC_baa96.dir/build
+        Building C object CMakeFiles/cmTC_baa96.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DQUICK_LINT_JS_HAVE_FFUNCTION_SECTIONS_C  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -ffunction-sections -MD -MT CMakeFiles/cmTC_baa96.dir/src.c.o -MF CMakeFiles/cmTC_baa96.dir/src.c.o.d -o CMakeFiles/cmTC_baa96.dir/src.c.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-nGUdhm/src.c"
+        Linking C executable cmTC_baa96
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baa96.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_baa96.dir/src.c.o -o cmTC_baa96 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:208 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:197 (quick_lint_js_add_cxx_flag_if_supported)"
+      - "cmake/QuickLintJSCompiler.cmake:251 (quick_lint_js_add_c_cxx_flag_if_supported)"
+      - "CMakeLists.txt:148 (quick_lint_js_enable_dead_code_stripping)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_FFUNCTION_SECTIONS_CXX"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Iq5YCu"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Iq5YCu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_FFUNCTION_SECTIONS_CXX"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Iq5YCu
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44121/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_44121.dir/build.make CMakeFiles/cmTC_44121.dir/build
+        Building CXX object CMakeFiles/cmTC_44121.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_FFUNCTION_SECTIONS_CXX  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -ffunction-sections -MD -MT CMakeFiles/cmTC_44121.dir/src.cxx.o -MF CMakeFiles/cmTC_44121.dir/src.cxx.o.d -o CMakeFiles/cmTC_44121.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Iq5YCu/src.cxx"
+        Linking CXX executable cmTC_44121
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44121.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_44121.dir/src.cxx.o -o cmTC_44121 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "cmake/QuickLintJSCompiler.cmake:243 (check_cxx_source_compiles)"
+      - "cmake/QuickLintJSCompiler.cmake:252 (quick_lint_js_add_cxx_linker_flag_if_supported)"
+      - "CMakeLists.txt:148 (quick_lint_js_enable_dead_code_stripping)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_GC_SECTIONS"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-hT0FB7"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-hT0FB7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_GC_SECTIONS"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-hT0FB7
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3387b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3387b.dir/build.make CMakeFiles/cmTC_3387b.dir/build
+        Building CXX object CMakeFiles/cmTC_3387b.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_GC_SECTIONS  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_3387b.dir/src.cxx.o -MF CMakeFiles/cmTC_3387b.dir/src.cxx.o.d -o CMakeFiles/cmTC_3387b.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-hT0FB7/src.cxx"
+        Linking CXX executable cmTC_3387b
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3387b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3387b.dir/src.cxx.o -o cmTC_3387b  -Wl,--gc-sections 
+        ld: unknown option: --gc-sections
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_3387b] Error 1
+        make: *** [cmTC_3387b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "vendor/googletest/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "vendor/googletest/googletest/CMakeLists.txt:93 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-wv2cru"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-wv2cru"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-wv2cru
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eec94/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eec94.dir/build.make CMakeFiles/cmTC_eec94.dir/build
+        Building C object CMakeFiles/cmTC_eec94.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_eec94.dir/src.c.o -MF CMakeFiles/cmTC_eec94.dir/src.c.o.d -o CMakeFiles/cmTC_eec94.dir/src.c.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-wv2cru/src.c"
+        Linking C executable cmTC_eec94
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eec94.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eec94.dir/src.c.o -o cmTC_eec94 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:150 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:136 (quick_lint_js_get_supported_warning_options)"
+      - "vendor/simdjson.cmake:25 (quick_lint_js_add_warning_options_if_supported)"
+      - "CMakeLists.txt:174 (include)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_WARNING_OPTION__WNO_ARRAY_BOUNDS"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-HA9oGV"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-HA9oGV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_WARNING_OPTION__WNO_ARRAY_BOUNDS"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-HA9oGV
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00b07/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_00b07.dir/build.make CMakeFiles/cmTC_00b07.dir/build
+        Building CXX object CMakeFiles/cmTC_00b07.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_WARNING_OPTION__WNO_ARRAY_BOUNDS  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -Wno-array-bounds -MD -MT CMakeFiles/cmTC_00b07.dir/src.cxx.o -MF CMakeFiles/cmTC_00b07.dir/src.cxx.o.d -o CMakeFiles/cmTC_00b07.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-HA9oGV/src.cxx"
+        Linking CXX executable cmTC_00b07
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00b07.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_00b07.dir/src.cxx.o -o cmTC_00b07 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "test/CMakeLists.txt:10 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include libutil.h"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dfp2mM"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dfp2mM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_LIBUTIL_H"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dfp2mM
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_52ca9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52ca9.dir/build.make CMakeFiles/cmTC_52ca9.dir/build
+        Building CXX object CMakeFiles/cmTC_52ca9.dir/CheckIncludeFile.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_52ca9.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_52ca9.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_52ca9.dir/CheckIncludeFile.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dfp2mM/CheckIncludeFile.cxx"
+        /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-dfp2mM/CheckIncludeFile.cxx:1:10: fatal error: 'libutil.h' file not found
+        #include <libutil.h>
+                 ^~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_52ca9.dir/CheckIncludeFile.cxx.o] Error 1
+        make: *** [cmTC_52ca9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "test/CMakeLists.txt:11 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include pty.h"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-bPWxUM"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-bPWxUM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_PTY_H"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-bPWxUM
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ee2c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ee2c.dir/build.make CMakeFiles/cmTC_4ee2c.dir/build
+        Building CXX object CMakeFiles/cmTC_4ee2c.dir/CheckIncludeFile.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_4ee2c.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_4ee2c.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_4ee2c.dir/CheckIncludeFile.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-bPWxUM/CheckIncludeFile.cxx"
+        /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-bPWxUM/CheckIncludeFile.cxx:1:10: fatal error: 'pty.h' file not found
+        #include <pty.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_4ee2c.dir/CheckIncludeFile.cxx.o] Error 1
+        make: *** [cmTC_4ee2c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "test/CMakeLists.txt:12 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include util.h"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cnqnek"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cnqnek"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_UTIL_H"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cnqnek
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c002/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1c002.dir/build.make CMakeFiles/cmTC_1c002.dir/build
+        Building CXX object CMakeFiles/cmTC_1c002.dir/CheckIncludeFile.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_1c002.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_1c002.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_1c002.dir/CheckIncludeFile.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-cnqnek/CheckIncludeFile.cxx"
+        Linking CXX executable cmTC_1c002
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c002.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1c002.dir/CheckIncludeFile.cxx.o -o cmTC_1c002 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "test/CMakeLists.txt:31 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_LIBUTIL"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xgohsN"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xgohsN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_LIBUTIL"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xgohsN
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_338f1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_338f1.dir/build.make CMakeFiles/cmTC_338f1.dir/build
+        Building CXX object CMakeFiles/cmTC_338f1.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_LIBUTIL  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -MD -MT CMakeFiles/cmTC_338f1.dir/src.cxx.o -MF CMakeFiles/cmTC_338f1.dir/src.cxx.o.d -o CMakeFiles/cmTC_338f1.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-xgohsN/src.cxx"
+        Linking CXX executable cmTC_338f1
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_338f1.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_338f1.dir/src.cxx.o -o cmTC_338f1  -lutil 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:59 (check_cxx_compiler_flag)"
+      - "test/CMakeLists.txt:234 (quick_lint_js_enable_bigobj_if_supported)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_BIGOBJ"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-s0E9GQ"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-s0E9GQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_BIGOBJ"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-s0E9GQ
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4633a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4633a.dir/build.make CMakeFiles/cmTC_4633a.dir/build
+        Building CXX object CMakeFiles/cmTC_4633a.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_BIGOBJ  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /bigobj -MD -MT CMakeFiles/cmTC_4633a.dir/src.cxx.o -MF CMakeFiles/cmTC_4633a.dir/src.cxx.o.d -o CMakeFiles/cmTC_4633a.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-s0E9GQ/src.cxx"
+        clang: error: no such file or directory: '/bigobj'
+        make[1]: *** [CMakeFiles/cmTC_4633a.dir/src.cxx.o] Error 1
+        make: *** [cmTC_4633a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:150 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:136 (quick_lint_js_get_supported_warning_options)"
+      - "test/CMakeLists.txt:251 (quick_lint_js_add_warning_options_if_supported)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_WARNING_OPTION__WD26495"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Dup7G9"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Dup7G9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_WARNING_OPTION__WD26495"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Dup7G9
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_be9d6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_be9d6.dir/build.make CMakeFiles/cmTC_be9d6.dir/build
+        Building CXX object CMakeFiles/cmTC_be9d6.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_WARNING_OPTION__WD26495  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /wd26495 -MD -MT CMakeFiles/cmTC_be9d6.dir/src.cxx.o -MF CMakeFiles/cmTC_be9d6.dir/src.cxx.o.d -o CMakeFiles/cmTC_be9d6.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-Dup7G9/src.cxx"
+        clang: error: no such file or directory: '/wd26495'
+        make[1]: *** [CMakeFiles/cmTC_be9d6.dir/src.cxx.o] Error 1
+        make: *** [cmTC_be9d6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:150 (check_cxx_compiler_flag)"
+      - "cmake/QuickLintJSCompiler.cmake:136 (quick_lint_js_get_supported_warning_options)"
+      - "test/CMakeLists.txt:251 (quick_lint_js_add_warning_options_if_supported)"
+    checks:
+      - "Performing Test QUICK_LINT_JS_HAVE_WARNING_OPTION__WD26812"
+    directories:
+      source: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-y7PJw8"
+      binary: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-y7PJw8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/koragg/Downloads/Projects/open source/quick-lint-js/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+    buildResult:
+      variable: "QUICK_LINT_JS_HAVE_WARNING_OPTION__WD26812"
+      cached: true
+      stdout: |
+        Change Dir: /Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-y7PJw8
+        
+        Run Build Command(s):/Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_af940/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_af940.dir/build.make CMakeFiles/cmTC_af940.dir/build
+        Building CXX object CMakeFiles/cmTC_af940.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DQUICK_LINT_JS_HAVE_WARNING_OPTION__WD26812  -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   /wd26812 -MD -MT CMakeFiles/cmTC_af940.dir/src.cxx.o -MF CMakeFiles/cmTC_af940.dir/src.cxx.o.d -o CMakeFiles/cmTC_af940.dir/src.cxx.o -c "/Users/koragg/Downloads/Projects/open source/quick-lint-js/CMakeFiles/CMakeScratch/TryCompile-y7PJw8/src.cxx"
+        clang: error: no such file or directory: '/wd26812'
+        make[1]: *** [CMakeFiles/cmTC_af940.dir/src.cxx.o] Error 1
+        make: *** [cmTC_af940/fast] Error 2
+        
+      exitCode: 2
+...

@@ -39,7 +39,8 @@
 //
 // When removing a diagnostic from this list, add an entry to
 // QLJS_X_RESERVED_DIAG_TYPES.
-#define QLJS_X_DIAG_TYPES                                                       \
+#define QLJS_X_DIAG_TYPES 
+                                                                             \
   QLJS_DIAG_TYPE(                                                               \
       diag_abstract_field_cannot_have_initializer, "E0295",                     \
       diagnostic_severity::error,                                               \
@@ -2785,6 +2786,17 @@
       diag_unexpected_token, "E0054", diagnostic_severity::error,               \
       { source_code_span token; },                                              \
       MESSAGE(QLJS_TRANSLATABLE("unexpected token"), token))                    \
+                                                                                \
+  QLJS_DIAG_TYPE(                                                               \
+      diag_expression_expected_after_spread_operator, "E0350",                  \
+      diagnostic_severity:: error,                                              \
+      {                                                                         \
+        source_code_span expression_expected;                                   \
+      }                                                                         \
+      MESSAGE(QLJS_TRANSLATABLE(                                                \
+        "unexpected '...'; expected expression"                                 \
+      ))                                                                        \
+  )                                                                             \
                                                                                 \
   QLJS_DIAG_TYPE(                                                               \
       diag_unexpected_token_after_export, "E0112", diagnostic_severity::error,  \

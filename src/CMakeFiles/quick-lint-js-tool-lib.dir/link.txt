@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libquick-lint-js-tool-lib.a "CMakeFiles/quick-lint-js-tool-lib.dir/quick-lint-js/assert.cpp.o" "CMakeFiles/quick-lint-js-tool-lib.dir/quick-lint-js/cli/arg-parser.cpp.o" "CMakeFiles/quick-lint-js-tool-lib.dir/quick-lint-js/port/char8.cpp.o"
+/Library/Developer/CommandLineTools/usr/bin/ranlib libquick-lint-js-tool-lib.a
